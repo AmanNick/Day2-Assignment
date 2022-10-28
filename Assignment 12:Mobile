@@ -1,0 +1,18 @@
+package Sep22.week1.day2;
+
+public class Mobile {
+	public String mobileModel ="Iphone14 Pro Max";
+	public  int mobileweight =240;
+	public boolean isfullcharge=true;
+	public double mobilecost=1699.00;
+	
+
+	public static void main(String[] args) {
+		Mobile phone = new Mobile();
+		System.out.println(phone.mobileModel);
+		System.out.println(phone.mobileweight);
+		System.out.println(phone.isfullcharge);
+		System.out.println(phone.mobilecost);
+	}
+
+}
