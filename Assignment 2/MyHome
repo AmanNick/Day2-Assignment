@@ -1,0 +1,19 @@
+  package Sep22.week1.day2;
+  
+public class MyHome {
+	private String bed= "queen";
+	
+	public void bedroom(){
+		
+		System.out.println(bed);
+	}
+	public static void main(String[] args) {
+		
+		PublicPark pp = new PublicPark();
+		MyHome house = new MyHome();
+		house.bedroom();
+		System.out.println(pp.swing);
+		System.out.println(pp.playGround);
+	}
+
+}
