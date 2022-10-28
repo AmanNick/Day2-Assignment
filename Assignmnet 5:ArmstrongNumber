@@ -1,0 +1,24 @@
+package Sep22.week1.day2;
+
+public class ArmstrongNumber {
+
+	public static void main(String[] args) {
+		int inputs=153;
+		int calculated=0;
+		int remainder;
+		int original=inputs;
+
+		while(inputs>0) {
+			remainder=inputs%10;
+			inputs=inputs/10;
+			calculated=calculated+remainder*remainder*remainder;
+		}
+			if (calculated==original)
+				System.out.println("Armstrong number");
+				else
+					System.out.println("not an Armstrong number");
+		}
+		
+	}
+
+
