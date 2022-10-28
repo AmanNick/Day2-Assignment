@@ -1,10 +1,10 @@
 package Sep22.week1.day2;
 
 public class Mobile {
-	public String mobileModel ="Iphone";
-	public  int mobileweight =100;
+	public String mobileModel ="Iphone14 Pro Max";
+	public  int mobileweight =240;
 	public boolean isfullcharge=true;
-	public double mobilecost=1234.00;
+	public double mobilecost=1699.00;
 	
 
 	public static void main(String[] args) {
