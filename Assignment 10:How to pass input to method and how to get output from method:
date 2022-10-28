@@ -1,0 +1,34 @@
+package Sep22.week1.day2;
+
+public class Calculator {
+	public double add(double a,double b) {
+		double result=a+b;
+			return result;
+		
+		}
+		public double sub(double a,double b) {
+			double result=a-b;
+				return result;
+			
+			}
+		public double mul(double a,double b) {
+			double result=a*b;
+				return result;
+			
+			}
+		public double divide(double a,double b) {
+			double result=a/b;
+				return result;
+			
+			}
+
+	public static void main(String[] args) {
+		Calculator Cal=new Calculator();
+		System.out.println(Cal.add(55.88,2.1));
+		System.out.println(Cal.sub(63.22,2.1));
+		System.out.println(Cal.mul(44.22,2.1));
+		System.out.println(Cal.divide(63.22,2.1));
+		
+	}
+
+}
