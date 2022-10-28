@@ -1,0 +1,12 @@
+package Sep22.week1.day2;
+
+public class PublicPark {
+	public String swing="Swing";
+    public String playGround="basketball";
+
+	public static void main(String[] args) {
+	    
+
+	}
+
+}
